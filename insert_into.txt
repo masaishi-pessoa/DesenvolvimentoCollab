@@ -1,3 +1,19 @@
+insert into categorais (pk_id_categoria, nome, descricao)
+    values 
+    (1, 'pequena_sereia', 'fantasia'),
+    (2, 'Casa_monstro', 'terror'),
+    (3, 'coraline', 'sinopse'),
+    (4, 'pinoquio', 'sinopse'),
+    (5, 'shrek', 'sinopse');
+
+insert into livros (pk_id_livro, titulo, isbn, fk_id_autor, fk_id_categoria, ano_publicacao) 
+    values
+    (1, 'pequena_sereia', 1, 1, 1, '2001-4-30'),
+    (2, 'Casa_monstro', 2, 2, 2, '2000-2-4'),
+    (3, 'coraline', 3, 3, 3, '2005-9-6'),
+    (4, 'pinoquio', 4, 4, 4, '2008-7-1'),
+    (5, 'shrek', 5, 5, 5, '2003-5-5');
+
 insert into autores(nome, sobrenome, data_nascimento, nacionalidade)
      values ('Nicolas', 'Oi Pessoa', '1996-03-29', 'japones'),
      ('Rodrigo', 'Generoso', '1998-07-13', 'italiano'),
@@ -11,3 +27,4 @@ insert into emprestimos(fk_id_livro, data_emprestimo, data_devolucao, status) va
      (3, '2000-04-21', '2000-06-20', 'ocupado'),
      (4, '2000-05-22', '2000-07-04', 'disponivel'),
      (5, '2000-07-06', '2000-09-02', 'ocupado');
+
