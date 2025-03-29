@@ -1,0 +1,17 @@
+create database gerenciamento_biblioteca_sql;
+
+use gerenciamento_biblioteca_sql;
+
+create table autores (
+     id_autor int(2) unsigned not null auto_increment primary key,
+     nome varchar(255),
+     sobrenome varchar(255),
+     data_nascimento date,
+     nacionalidade varchar(255));
+
+create table emprestimos(
+     id_emprestimo int(2) unsigned not null auto_increment primary key,
+     fk_id_livro int,
+     data_emprestimo date,
+     data_devolucao date,
+     status varchar(255));
