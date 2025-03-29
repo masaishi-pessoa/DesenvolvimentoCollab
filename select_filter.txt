@@ -1,3 +1,4 @@
+
 select * from categorias
 where nome = 'shrek';
 
@@ -9,3 +10,13 @@ where id_livro = 5;
 
 select * from livros
 where nome = 'coraline';
+
+select * from autores
+where nome = 'Nicolas';
+
+select * from emprestimos
+where status = 'ocupado';
+
+select * from emprestimos
+where status = 'disponivel';
+
