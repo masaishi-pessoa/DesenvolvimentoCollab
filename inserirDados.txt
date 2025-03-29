@@ -1,0 +1,15 @@
+insert into categorais (pk_id_categoria, nome, descricao)
+    values 
+    (1, 'pequena_sereia', 'fantasia'),
+    (2, 'Casa_monstro', 'terror'),
+    (3, 'coraline', 'sinopse'),
+    (4, 'pinoquio', 'sinopse'),
+    (5, 'shrek', 'sinopse');
+
+insert into livros (pk_id_livro, titulo, isbn, fk_id_autor, fk_id_categoria, ano_publicacao) 
+    values
+    (1, 'pequena_sereia', 1, 1, 1, '2001-4-30'),
+    (2, 'Casa_monstro', 2, 2, 2, '2000-2-4'),
+    (3, 'coraline', 3, 3, 3, '2005-9-6'),
+    (4, 'pinoquio', 4, 4, 4, '2008-7-1'),
+    (5, 'shrek', 5, 5, 5, '2003-5-5');

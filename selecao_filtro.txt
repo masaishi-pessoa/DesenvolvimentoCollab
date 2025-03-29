@@ -1,0 +1,11 @@
+select * from categorias
+where nome = 'shrek';
+
+select * from categorias
+where id_categoria = 3;
+
+select * from livros
+where id_livro = 5;
+
+select * from livros
+where nome = 'coraline';
