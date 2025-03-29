@@ -1,0 +1,8 @@
+select * from autores
+where nome = 'Nicolas';
+
+select * from emprestimos
+where status = 'ocupado';
+
+select * from emprestimos
+where status = 'disponivel';
